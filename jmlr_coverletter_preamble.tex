@@ -1,0 +1,31 @@
+% Simplified JMLR cover letter preamble (BasicTeX compatible)
+\documentclass{article}
+
+% FONTS
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+
+% GEOMETRY
+\usepackage[
+  paper  = letterpaper,
+  left   = 1.5in,
+  right  = 1.5in,
+  top    = 1.0in,
+  bottom = 1.0in,
+  ]{geometry}
+
+% SPACING and TEXT
+\usepackage[english]{babel}
+\usepackage[parfill]{parskip}
+
+% COUNTERS
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{(\alph{enumii})}
+
+% HYPERREF
+\usepackage[colorlinks,linktoc=all]{hyperref}
+\hypersetup{linkcolor=black}
+\hypersetup{urlcolor=blue}
+
+\pagenumbering{gobble}
