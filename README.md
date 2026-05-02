@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19982396.svg)](https://doi.org/10.5281/zenodo.19982396)
+
 # Cognitive Dynamics of an Epistemically Constrained Language Model Agent
 
 **The first empirical evidence that an agent orchestration layer produces measurable, learnable cognitive dynamics in the underlying language model.**
